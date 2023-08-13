@@ -1,0 +1,28 @@
+Q.  What is GitHub?
+GitHub kuch bhi nahi hai bas ek ledger hai jaha pe sari information store hai ki hame jo bhi project aaj tak banaya hai vo kab banaya tha and usme  kis kis ne contribute kiya hai ya phir wapas se kisne usme change kiye hai in sari information ko GitHub track kar ke rakhta hai.
+
+:- We can easily go back to the desired version we want to go and see the changes done at that time.
+:- We can esaily roll back to the previous verion if any issue or bug arise on the later state of time.
+------------------------------------------------------------------------------------------------
+Q. Why is GitHub?
+GitHub ko banaya isliye gaya tha taki jo file ya project ham create kar rahe hai usko bad me hame apne member ke sath share karna hi to same file ki multiple copy na bana ke ham usko esa kar sakte hai ek esi destination ho waha hamara pura project ho and usme sab apne changes ko commit kar sake and in future vo sare changes kisne and kab kiye hai that can also be visible by all of us. We ca easily keep track of whatever thing is going on in the project.
+------------------------------------------------------------------------------------------------------------------------------------------------
+Q.Various type of version control system?
+:- Local version control system. 
+Pro>> In this type of version control system we can keep track of the files and the projects and we can also rollback to previos version if any bug got created on the later stage.
+Cons>> In this type of version control system if the hard disk or the computer where the data of the project was stored got damage the whole file will be lost and the previous version of the project will also be lost.
+
+:-Centralize version control system.
+Pro>> In this version control system the whole project data is stored in the dedicated server where all the other member of the project push and pull the chages and commit into it. Every member of the Project have some version of information so they can rollback easily without any interaction with the main server.
+Cons>> In this version control system if the main server got down the other member of the project will be unable to see the project and pull and push the request untill and unless the main server got back. In the worst case cenario if the main server got damage or currupted the previous history of the data will be lost and only that amount of data that are present with the members will be recovered.
+
+:-Distributed Verion Control System
+Pro>> In this version control system every member of the project team have the full history of data and previous version as well. They just share the changes part with the main central server. 
+------------------------------------------------------------------------------------------------------------------------------------------------
+Git Features :
+:- It takes snapshot not the difference 
+:- .gitignore files are not pushed to the server
+:- All the operations are local 
+:- Git has intigrity i.e. it has its own privacy checksome is created for every file individual can check weather they are downloading the original file or their are changes made after the sharing of the file
+
+
