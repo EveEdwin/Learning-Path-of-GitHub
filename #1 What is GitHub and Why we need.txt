@@ -12,11 +12,11 @@ Q.Various type of version control system?
 Pro>> In this type of version control system we can keep track of the files and the projects and we can also rollback to previos version if any bug got created on the later stage.
 Cons>> In this type of version control system if the hard disk or the computer where the data of the project was stored got damage the whole file will be lost and the previous version of the project will also be lost.
 
-:-Centralize version control system.
+:- Centralize version control system.
 Pro>> In this version control system the whole project data is stored in the dedicated server where all the other member of the project push and pull the chages and commit into it. Every member of the Project have some version of information so they can rollback easily without any interaction with the main server.
 Cons>> In this version control system if the main server got down the other member of the project will be unable to see the project and pull and push the request untill and unless the main server got back. In the worst case cenario if the main server got damage or currupted the previous history of the data will be lost and only that amount of data that are present with the members will be recovered.
 
-:-Distributed Verion Control System
+:- Distributed Verion Control System
 Pro>> In this version control system every member of the project team have the full history of data and previous version as well. They just share the changes part with the main central server. 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 Git Features :
